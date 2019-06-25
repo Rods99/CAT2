@@ -18,7 +18,7 @@ class CreateStudentsTable extends Migration
             $table->increments('id');
             $table->string('fullName');
             $table->date('DateOfBirth');
-            $table->string('Address');
+            $table->string('address');
             $table->Integer('Balance');
             $table->timestamps();
         });
