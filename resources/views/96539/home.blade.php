@@ -1,12 +1,12 @@
-@extends ('trevor.master')
+@extends ('96539.master')
 
     @section('content')
         <br>
         <div class="container">
             <div class="jumbotron align-content-center">
-                <h1 >Fees Management System</h1>
+                <h1 >AMS</h1>
             </div>
-        </div>
+        </div
 
         <div class="container">
             <a href="/add"><button type="button"  class="btn btn-primary btn-lg btn-block">Add a student</button>
@@ -22,11 +22,7 @@
 
         </div>
         <br>
-        <div class="container">
-            <div class="jumbotron">
-                    <h2>Total amount paid = <strong>{{$fee}}</strong></h2>
-            </div>
-        </div>
+        
         <div class="container">
             <table class="table">
                 <thead class="thead-dark">
@@ -50,8 +46,14 @@
                 </tr>
                     @endforeach
 
+
                 </tbody>
             </table>
+            <div class="container">
+            <div class="jumbotron">
+                    <h2>Total amount paid = <strong>{{$fee}}</strong></h2>
+            </div>
+        </div>
         </div>
 
 

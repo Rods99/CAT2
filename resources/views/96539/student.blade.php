@@ -1,4 +1,4 @@
-@extends ('trevor.master')
+@extends ('96539.master')
 
 @section('links')
     <a class="navbar-brand" href="/add">Add a Student</a>
@@ -10,7 +10,7 @@
     <br>
     <div class="container">
         <div class="jumbotron align-content-center" >
-            <h1>Fees Management System</h1>
+            <h1>AMS</h1>
         </div>
     </div>
 
