@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <input type="hidden" name="balance" value="200000">
+            <input type="hidden" name="Balance" value="200000">
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-5">
                     <input type="submit" class="btn btn-default" value="Add Student">

@@ -32,7 +32,7 @@ class FeeController extends Controller
         $fees->student_id=request('student_id');
         $fees->amount=request('amount');
 
-        DB::table('students')->where('id','=', $fees->student_id)->decrement('balance',$fees->amount);
+        DB::table('students')->where('id','=', $fees->student_id)->decrement('Balance',$fees->amount);
 
         $fees->save();
         return redirect('/');

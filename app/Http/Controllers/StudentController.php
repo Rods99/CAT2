@@ -32,7 +32,7 @@ class StudentController extends Controller
         $student->fullName=request('fullName');
         $student->DateOfBirth=request('DateOfBirth');
         $student->address=request('address');
-        $student->balance=request('Balance');
+        $student->Balance=request('Balance');
         $student->gender=request('gender');
         $student->save();
         return Redirect('/');
