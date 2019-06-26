@@ -12,7 +12,7 @@
         <div class="jumbotron">
             <h3>Past Payments for {{$name}}</h3>
 
-            {{--<h5>Fees Balance = <strong>{{$student->Balance}}</strong></h5>--}}
+            {{--<h5>Fees Balance = <strong>{{$student->balance}}</strong></h5>--}}
         </div>
     </div>
 
