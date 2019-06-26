@@ -19,7 +19,7 @@ class CreateStudentsTable extends Migration
             $table->string('fullName');
             $table->date('DateOfBirth');
             $table->string('Address');
-            $table->Integer('balance');
+            $table->Integer('Balance');
             $table->timestamps();
         });
     }
